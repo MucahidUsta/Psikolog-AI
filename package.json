@@ -1,0 +1,34 @@
+{
+  "name": "psikologai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.0",
+    "@tensorflow/tfjs": "^4.22.0",
+    "@tensorflow/tfjs-react-native": "^1.0.0",
+    "assemblyai": "^4.8.0",
+    "axios": "^1.7.9",
+    "expo": "~52.0.28",
+    "expo-av": "^15.0.2",
+    "expo-speech": "^13.0.1",
+    "expo-status-bar": "~2.0.1",
+    "long": "^5.2.4",
+    "openai": "^4.81.0",
+    "react": "18.3.1",
+    "react-native": "0.76.6",
+    "react-native-dotenv": "^3.4.11",
+    "react-native-fs": "^2.20.0",
+    "react-native-paper": "^5.13.1",
+    "expo-file-system": "~18.0.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
